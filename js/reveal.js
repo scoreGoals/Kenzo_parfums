@@ -10,7 +10,6 @@ new ScrollMagic.Scene({
         offset: 0 // move trigger to center of element
     })
     .setClassToggle("#kp-face-1", "visible") // add class to reveal
-    .addIndicators() // add indicators (requires plugin)
     .addTo(controller);
 
 
@@ -20,7 +19,6 @@ new ScrollMagic.Scene({
         offset: 0 // move trigger to center of element
     })
     .setClassToggle("#kp-energy", "visible") // add class to reveal
-    .addIndicators() // add indicators (requires plugin)
     .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -29,7 +27,6 @@ new ScrollMagic.Scene({
         offset: 0 // move trigger to center of element
     })
     .setClassToggle("#kp-face-2", "visible") // add class to reveal
-    .addIndicators() // add indicators (requires plugin)
     .addTo(controller);
 
 
@@ -39,7 +36,6 @@ new ScrollMagic.Scene({
         offset: 0 // move trigger to center of element
     })
     .setClassToggle("#kp-power", "visible") // add class to reveal
-    .addIndicators() // add indicators (requires plugin)
     .addTo(controller);
 
 
@@ -53,8 +49,5 @@ for (let i = 0; i < revealElements.length; i++) { // create a scene for each ele
             triggerHook: 0.9,
         })
         .setClassToggle(revealElements[i], "visible") // add class toggle
-        .addIndicators({
-            name: "kp-item " + (i + 1)
-        }) // add indicators (requires plugin)
         .addTo(controller);
 };
