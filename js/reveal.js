@@ -7,7 +7,6 @@ let controller = new ScrollMagic.Controller();
 new ScrollMagic.Scene({
         triggerElement: "#kp-imagination",
         triggerHook: 0.9, // show, when scrolled 10% into view
-        // duration: "80%", // hide 10% before exiting view (80% + 10% from bottom)
         offset: 0 // move trigger to center of element
     })
     .setClassToggle("#kp-face-1", "visible") // add class to reveal
@@ -18,7 +17,6 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
         triggerElement: "#kp-youth",
         triggerHook: 0.9, // show, when scrolled 10% into view
-        // duration: "80%", // hide 10% before exiting view (80% + 10% from bottom)
         offset: 0 // move trigger to center of element
     })
     .setClassToggle("#kp-energy", "visible") // add class to reveal
@@ -28,7 +26,6 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
         triggerElement: "#kp-new",
         triggerHook: 0.9, // show, when scrolled 10% into view
-        // duration: "80%", // hide 10% before exiting view (80% + 10% from bottom)
         offset: 0 // move trigger to center of element
     })
     .setClassToggle("#kp-face-2", "visible") // add class to reveal
@@ -39,7 +36,6 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
         triggerElement: "#kp-freedom",
         triggerHook: 0.9, // show, when scrolled 10% into view
-        // duration: "80%", // hide 10% before exiting view (80% + 10% from bottom)
         offset: 0 // move trigger to center of element
     })
     .setClassToggle("#kp-power", "visible") // add class to reveal
